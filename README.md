@@ -83,5 +83,8 @@ npm install
 npx playwright install
 npm test
 
+Para visualizar el navegador testeandose usar:
+npx playwright test tests/auth/login.spec.ts --headed
+
 Para ver el reporte HTML:
 npx playwright show-report
