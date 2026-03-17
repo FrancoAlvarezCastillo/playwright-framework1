@@ -76,4 +76,4 @@ npm run test:chromium
 ```
 
 ## Sitio demo usado
-El framework está preparado contra SauceDemo, que es muy usado para practicar automation.
+El framework está preparado contra SauceDemo
