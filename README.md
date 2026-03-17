@@ -1,4 +1,4 @@
-# 🧪 Framework de Automatización E2E con Playwright (TypeScript)
+# Framework de Automatización E2E con Playwright (TypeScript)
 
 Este proyecto es un framework de automatización de pruebas end-to-end (E2E) construido con **Playwright + TypeScript**, diseñado para validar flujos reales de usuario en una aplicación web (escenario de e-commerce).
 
@@ -6,22 +6,22 @@ Sigue buenas prácticas de la industria como **Page Object Model (POM)**, uso de
 
 ---
 
-## 🚀 Características
+## Características
 
-- ✅ Pruebas End-to-End (E2E)
-- ✅ Playwright Test Runner
-- ✅ Soporte con TypeScript
-- ✅ Page Object Model (POM)
-- ✅ Fixtures personalizadas (inyección de dependencias)
-- ✅ Datos de prueba estructurados (JSON)
-- ✅ Reportes HTML
-- ✅ Ejecución en paralelo
-- ✅ Auto-waits (sin esperas manuales)
-- ✅ Soporte multi-navegador
+- Pruebas End-to-End (E2E)
+- Playwright Test Runner
+- Soporte con TypeScript
+- Page Object Model (POM)
+- Fixtures personalizadas (inyección de dependencias)
+- Datos de prueba estructurados (JSON)
+- Reportes HTML
+- Ejecución en paralelo
+- Auto-waits (sin esperas manuales)
+- Soporte multi-navegador
 
 ---
 
-## 🏗️ Estructura del Proyecto
+## Estructura del Proyecto
 playwright-ts-saucedemo/
 │
 ├── tests/ # Casos de prueba (lógica de negocio)
@@ -42,13 +42,13 @@ playwright-ts-saucedemo/
 
 ---
 
-## 🔄 Flujos de Prueba Cubiertos
+## Flujos de Prueba Cubiertos
 
-### 🔐 Flujo de Autenticación
+### Flujo de Autenticación
 - ✔️ Login exitoso con usuario válido
 - ❌ Intento de login con usuario bloqueado
 
-### 🛒 Flujo de Compra (Checkout)
+### Flujo de Compra (Checkout)
 - ✔️ El usuario inicia sesión
 - ✔️ Selecciona un producto
 - ✔️ Agrega el producto al carrito
@@ -57,26 +57,26 @@ playwright-ts-saucedemo/
 
 ---
 
-## 🧪 Diseño de Pruebas
+## Diseño de Pruebas
 
-### 🔹 Page Object Model (POM)
+### Page Object Model (POM)
 Se abstraen las interacciones con la interfaz en clases separadas, lo que permite reutilización y fácil mantenimiento.
 
-### 🔹 Fixtures
+### Fixtures
 Se utilizan fixtures personalizadas para inyectar dependencias (como páginas) en los tests.
 
-### 🔹 Asserts (Validaciones)
+### Asserts (Validaciones)
 Se utilizan las validaciones de Playwright (`expect`):
 - `toHaveURL`
 - `toBeVisible`
 - `toHaveText`
 
-### 🔹 Estrategia de Espera
+### Estrategia de Espera
 El framework utiliza **auto-waits de Playwright**, evitando el uso de esperas fijas (`sleep`), lo que mejora la estabilidad.
 
 ---
 
-## ▶️ Cómo ejecutar el proyecto
+## Cómo ejecutar el proyecto
 
 ```bash
 npm install
