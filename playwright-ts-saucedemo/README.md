@@ -51,6 +51,11 @@ cp .env.example .env
 ```bash
 npm test
 ```
+Para visualizar el navegador testeandose usar:
+npx playwright test --headed
+
+Para ver el reporte HTML:
+npx playwright show-report
 
 Modo UI:
 
@@ -72,11 +77,3 @@ npm run test:chromium
 
 ## Sitio demo usado
 El framework está preparado contra SauceDemo, que es muy usado para practicar automation.
-
-## Ideas para mejorarlo
-- agregar API testing con Playwright
-- integrar faker para datos dinámicos
-- agregar tags por smoke/regression
-- generar soporte para environments qa/dev/staging
-- integrar Allure Report
-- dockerizar la ejecución
